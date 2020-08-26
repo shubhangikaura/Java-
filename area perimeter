@@ -1,0 +1,17 @@
+import java.uti.*;
+public class Square
+{
+public static void main(string args[])
+{
+Scanner S=new Scanner(System.in);
+int s,ar=0,p=0;
+double d=0.0;
+s=25;
+ar=s*s;
+p=4*s;
+d=Math.sqrt(2)*s;
+System.out.println("Area is:"+ar);
+System.out.println("Perimeter is:"+p);
+System.out.println("Diagonal is:"+d);
+}
+}
